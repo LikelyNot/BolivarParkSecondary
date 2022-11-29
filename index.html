@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css?" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest?" />
+    <link rel="mask-icon" href="safari-pinned-tab.svg?" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Home page | Bolivar Park Secondary</title>
+  </head>
+
+  <body>
+    <header>
+      <img
+        class="logo-image"
+        src="images/BCHydro_Logo.png"
+        alt="The BC Hydro logo"
+      />
+      <a class="logo-text" href="/ChochNotes/">
+        <span style="color: rgb(66, 66, 66)">BC Hydro</span>
+      </a>
+      <a
+        class="logo-text"
+        href="/ChochNotes/"
+        style="margin-left: 70px; margin-top: 6px; font-size: 1.5rem"
+      >
+        <span style="color: rgb(66, 66, 66)">Bolivar Park Secondary</span>
+      </a>
+      <div class="menu-button-container">
+        <a class="menu-button" href="/ChochNotes/">Home</a>
+        <a class="menu-button" href="about.html">About</a>
+        <a
+          class="menu-button"
+          href="https://github.com/SurelyEnough/ChochNotes"
+          target="_blank"
+          >Github</a
+        >
+      </div>
+    </header>
+    <div class="banner">
+      <div
+        class="menu-button-container"
+        style="padding: 20px; margin-left: 10px; gap: 1rem"
+      >
+        <button
+          id="overview-button"
+          class="banner-button selected"
+          onclick="hideLayer('elements-of-form-and-style'); hideLayer('interviews'); hideLayer('quizzes'); showLayer('overview')"
+        >
+          Themes
+        </button>
+        <button
+          id="elements-of-form-and-style-button"
+          class="banner-button unselected"
+          onclick="hideLayer('overview'); hideLayer('interviews'); hideLayer('quizzes'); showLayer('elements-of-form-and-style')"
+        >
+          Literary Devices
+        </button>
+        <button
+          id="interviews-button"
+          class="banner-button unselected"
+          onclick="hideLayer('overview'); hideLayer('elements-of-form-and-style'); hideLayer('quizzes'); showLayer('interviews')"
+        >
+          Interviews
+        </button>
+        <button
+          id="quizzes-button"
+          class="banner-button unselected"
+          onclick="hideLayer('overview'); hideLayer('elements-of-form-and-style'); hideLayer('interviews'); showLayer('quizzes')"
+        >
+          Quizzes
+        </button>
+      </div>
+    </div>
+    <div class="content-wrapper">
+      <div id="overview">
+        <h1 class="content-title">Themes</h1>
+        <h2>Trauma</h2>
+        <p class="content-text">
+          The main theme of <i>Strangers</i> - the effects of trauma, especially
+          on young people - is expressed through the story’s protagonist, Cole
+          Harper. Cole is a young adult whose past is marked by death and guilt
+          arising from a fire that burned through a school in his Indigenous
+          settlement, Wounded Sky. He is a protagonist whom David A. Robertson
+          suggests is a hero because of his courage and determination to do
+          justice to his past and reunite his community, despite his
+          vulnerabilities about his trauma. It is easy to see that Cole’s
+          greatest challenge is his trauma surrounding his community, whom he
+          has panic attacks because of. In seeing Cole reunite his community and
+          overcome his trauma through solving new problems and interacting with
+          figures arising from his trauma - Jayne, Alex, and his friends -
+          Robertson is suggesting that trauma is a challenge that can be
+          overcome and reckoned with. Despite this, Cole’s challenges with his
+          trauma continue throughout the book and will most likely be concluded
+          at the end of the series. In <i>Strangers</i>, however, it is evident
+          that Cole is coming to terms with his challenges with trauma. By
+          showing Cole’s progression, the novel shows that overcoming trauma is
+          a process that requires reuniting and deliberate action, as we see in
+          Cole.
+        </p>
+        <h2>Heroism</h2>
+        <p>
+          In literature, a hero traditionally has been considered to be someone
+          possessing great courage or strength. Yet, in <i>Strangers</i>, these
+          qualities are hard to describe in Cole Harper. Cole is an
+          untraditional hero whose moral courage, love for his community, and
+          desire to help the greater good, all make him a hero, Robertson
+          suggests. In other words, the heroism of Cole Harper lies not in his
+          concrete actions, but in his love and character. Cole’s decision to
+          keep going even after being harassed by his critics shows his
+          determination and resilience, a quality not often seen in heroes as
+          heroes are generally well perceived by the public. In showing that
+          Cole is disliked by many, the novel comments on heroism by implying
+          that anyone can be a hero if they show enough courage and love.
+          Additionally, the hero of <i>Strangers</i>, Cole, faces problems
+          related to his trauma and can be seen as weak because of his constant
+          panic attacks. Yet, by showing that Cole is able to grapple with his
+          problems and progress in his relationships, Cole is a hero. Even
+          though Cole has superhuman powers, his more important trauma problems
+          stop him from making any significant action. Cole’s only real actions
+          come from his courage to come back and reunite with his community.
+          Breaking from the traditional view of heroism, <i>Strangers</i> shows
+          that heroism is not given, as in strength, but earned.
+        </p>
+        <h2>Community</h2>
+        <p>
+          Throughout <i>Strangers</i>, Cole faces criticism and accusations of
+          murder from his community, who believes that he has abandoned them.
+          These attacks on Cole obviously do more harm than good, and at times
+          hinder his work. Cole, who is already facing issues related to trauma,
+          struggles with these attacks, but seeks comfort in other members of
+          the Wounded Sky community, including Elder Mariah and his friends. His
+          community is angry at him for his abandonment, and this strays away
+          from reuniting after the traumatic fire. For example, when Cole tries
+          to save the Chief at the hockey rink near the beginning of the novel,
+          verbal attacks on him cause him to have a panic attack, despite him
+          trying to help. Robertson’s examples of a toxic community that does
+          more harm than good when hurtful shows that to truly reconcile and
+          unite, a community must come together and support each other. This
+          theme is also prevalent in the real Indigenous world, where
+          communities are in the process of reconciliation from the effects of
+          Residential schools. In giving a fictional depiction of a failure to
+          unite and blaming others, the novel suggests that the only way to
+          reconcile after a tragedy is through unity and hope.
+        </p>
+      </div>
+      <div id="elements-of-form-and-style" style="display: none">
+        <h1 class="content-title">Literary Devices</h1>
+        <h2>Motifs</h2>
+        <p>
+          <i
+            >A motif is an idea, object, or concept that repeats itself
+            throughout a text.
+          </i>
+        </p>
+        <p>
+          Cole’s panic attacks and visions recur throughout the book and serve
+          several purposes. In the beginning of the book, Cole’s panic attacks
+          inform the reader of Cole’s past and his troubles with trauma. The
+          panic attacks show the reader that something has happened to Cole in
+          the past. Initially vague, Cole’s visions become more and more
+          complex, long, and informative. Serving a purely foreshadowing purpose
+          at the beginning of the book, Cole’s panic attacks start to inform the
+          reader of the event that caused Cole’s trauma in the first place.
+          Eventually, Cole’s panic attacks evolve into visions that comfort him.
+          Cole’s visions are ambiguous at first, but in all cases, Cole’s
+          visions serve both informative and foreshadowing purposes. The
+          progression of his visions also is a clear indicator of Cole’s growth
+          as a character and his strength in battling his trauma.
+        </p>
+        <p>
+          The sudden deaths starting after Cole’s arrival in Wounded Sky are
+          coincidentally linked to Cole every time a character dies. In this
+          sense, death is a strong motif in the novel. As Cole is surrounded by
+          death, he progresses and becomes stronger through all of the tragedy.
+          The development of the novel is also characterized by death; numerous
+          details in the plot are driven by it. In the beginning, Ashley’s
+          sudden and bloody death signals to Cole that he has a mission to
+          accomplish and sets him on a journey to find Ashley’s killer. Chief
+          Crate and Alex’s deaths indicate that Ashley’s death was not a one-off
+          event, and that Cole must find the killer at all costs. Finally,
+          Maggie’s death is linked with Cole finding the mysterious files
+          containing the names of those who died. All of these events are
+          recurring examples of death in the novel, which both drives the plot
+          forward and pushes Cole to his limits.
+        </p>
+        <h2>Point of View</h2>
+        <p>
+          <i>Strangers</i> features an unusual combination of points of view.
+          The novel uses a third-person limited point of view to show the reader
+          the inner thoughts and feelings of the main character, Cole Harper. It
+          does not reveal the thoughts or inner monologue of the other
+          characters; in this sense, it clearly portrays Cole as the main
+          character and protagonist. Robertson uses a third-person narration,
+          referring to Cole as “he”, instead of first-person narration, which
+          would refer to Cole as “I”; Robertson describes Cole’s thoughts and
+          feelings while also commenting on them. For example, on page 160, the
+          narrator describes Cole running through the forest while also
+          commenting on his luck, “No help from the heavens.” Despite this
+          narration style, the point of view is complicated by adding the
+          omnipresent Choch to the mix. Choch frequently interjects at certain
+          places to clarify things, which could imply that while the narrator is
+          describing the story, Choch is “standing over their shoulder.” This
+          unusual mix of an ordinary narration style and an omnipresent
+          character who is also part of the narration makes for an interesting
+          storytelling style. In this way, Choch’s interjections serve as a
+          clarification for the reader about Indigenous elements while avoiding
+          footnotes and making the narration more interesting.
+        </p>
+        <h2>Style</h2>
+        <p>
+          <i>Strangers</i> blends dramatic and lyrical descriptions of nature
+          and Cole’s surroundings with vivid action and lengthy conversations.
+          This creates a style that both evokes a feeling of sympathy with Cole
+          and attempts to fully describe Cole’s trauma. At the beginning of the
+          novel on page 27, Cole has a panic attack whilst entering Wounded Sky.
+          The author uses dramatic, sweeping, but generic terms to describe his
+          vision: “He heard the screams of children… Flames roared, thunderous
+          and terrible… He saw everything around him - the grass, the trees, the
+          path to the school - painted in yellow and orange and red.” This sort
+          of lyrical and dramatic descriptions of nature, especially Cole’s
+          trauma, continue throughout the book. The dramatic and dark
+          descriptions, especially when Cole enters his own community, gives the
+          reader a sense that although Cole has agreed to come home, the ominous
+          tone implies dark events to follow. Throughout the rest of the book,
+          Robertson uses a plain style emphasizing Cole and his emotions. For
+          example, Ashley’s death is described in gruesome, horrifying terms,
+          evoking Cole’s own emotions. Contrasting Robertson’s lush and vivid
+          descriptions of events Cole faces, his style in describing the many
+          conversations is plain and keeps the rest of the characters at an
+          arm’s length away from the reader. In doing so, Cole becomes the focal
+          point of the reader’s emotions. While the rest of the characters are
+          angry at Cole for abandoning his community, the reader only has seen
+          Cole’s own feelings and is inclined to sympathize with Cole.
+          Robertson’s style in the novel is both lush and plain, but in both
+          cases, they emphasize Cole and his emotions.
+        </p>
+        <h2>Symbolism</h2>
+        <p>
+          Jayne serves as a reminder to Cole of the kids he didn’t save in the
+          fire that struck Wounded Sky years ago. Despite being a visible
+          reminder of the guilt and pain Cole faces, they have a loving
+          relationship with each other and Jayne serves to comfort Cole and
+          helps Cole throughout the book. In this sense, Jayne is a symbol for
+          Cole’s guilt, but their positive relationship shows that Cole is
+          coming to terms with his past, emphasizing his new views on his own
+          guilt in not saving the others.
+        </p>
+        <p>
+          Mark is a clear symbol of the frustration the community has towards
+          Cole. In multiple instances, he publicly berates Cole and accuses him
+          of murder. Again, in both instances, Robertson deliberately allows
+          Mark to have control of most or almost all of the conversation, and
+          Cole only offers his own short and often blunt comments at the end of
+          the conversation to show his own frustration with his community. By
+          allowing Mark to always have most of the conversation, Robertson is
+          able to consolidate all of the community’s frustration and Cole’s
+          critics in one person, Mark. Mark symbolizes all of the criticism and
+          skepticism directed towards Cole, as well as the community’s
+          frustration with the recent deaths in Wounded Sky.
+        </p>
+        <p>
+          Cole’s relationship with Eva is symbolized in the sweetgrass ring she
+          has. As Cole notes, she still has the ring, which Cole made for her
+          years before. The sweetgrass ring symbolizes their past relationship
+          together. In the novel, it’s easy for the reader to completely doubt
+          that Eva might still have any affection for Cole left, but her
+          decision to keep the sweetgrass ring symbolizes her feelings toward
+          him, which are, apparently, still present.
+        </p>
+        <p>
+          The two characters that Cole speaks with at the beginning of the novel
+          are his grandmother and Aunt Joan. They play an easy to forget role,
+          in that they symbolize the two voices in Cole’s head deciding whether
+          to return to Wounded Sky or not. On one hand, Aunt Joan is the voice
+          of doubt in Cole’s head, which tries to reassure himself that it’s not
+          worth going back. She constantly silences Cole’s grandmother in one
+          conversation, which could be similar to a back-and-forth in Cole’s
+          head, where he knows deep inside that he must return. Eventually, the
+          voice of reason prevails, which is his grandmother. His grandmother
+          makes a return in a later part of the novel, where Cole is frightened
+          and wants to return to his new home from Wounded Sky. His grandmother
+          reassures him and comforts him. In these ways, Cole’s grandmother and
+          Aunt Joan are Cole’s two conflicting voices deciding whether to return
+          to Wounded Sky or not.
+        </p>
+      </div>
+      <div id="interviews" style="display: none">
+        <h1 class="content-title">Interviews</h1>
+        <h2>A conversation with Cole on trauma</h2>
+        <div class="interview-container">
+          <div class="msg sent">
+            Hi Coley-Boley, I have a few questions for you. Do you have time for
+            an interview?
+          </div>
+          <div class="msg rcvd">
+            Hi Brady, it's a bit late, but I can answer a few questions. Also,
+            since when did you call me Coley-Boley?
+          </div>
+          <div class="msg sent">
+            Oh, um, about that. This may or may not be Choch. My apologies,
+            Brady. I'll try to return your phone later.
+          </div>
+          <div class="msg rcvd">Choch! I told you to stop doing that!</div>
+          <div class="msg sent">
+            Yeah. Uh, that was awkward. Anyways, let's change the subject here -
+            what was it like, entering Wounded Sky for the first time in years?
+          </div>
+          <div class="msg rcvd">
+            Oh. I was really nervous. I didn't know what to expect from Wounded
+            Sky, you know, their reaction to me and all. To be honest, I was
+            surprised at all of the frustration towards me. I wasn't expecting
+            to be received like a hero, but I thought that they would at least
+            treat me as one of their own, not as a, well, "city boy".
+          </div>
+          <div class="msg sent">
+            What did it feel like, reuniting with your friends after so many
+            years?
+          </div>
+          <div class="msg rcvd">
+            It felt like a mixture of nostalgia and fright. As with a lot of
+            other things, I didn't really know what to expect. I expected a
+            warmer reception from Eva, though. I mean, I think I've told you
+            about me and her all those years ago, right? One time
+          </div>
+          <div class="msg sent">Get back on track, Cole.</div>
+          <div class="msg rcvd">
+            Oh, right. I felt really guilty about leaving them for so many
+            years. But, I know they'd also been on my side all this time. I
+            wanted to explain to them why I left and that I really missed them,
+            but I was afraid that they would just be completely bitter to me. I
+            think they understood eventually, though. I was just scared, you
+            know. That they would hate me.
+          </div>
+          <div class="msg sent">
+            You mentioned that you had a panic attack. How did you manage those
+            and cope with your traumatic memories?
+          </div>
+          <div class="msg rcvd">
+            At the beginning, I had a ton of panic attacks, especially when I
+            saw Wounded Sky for the first time in years. It just brought back
+            all of those memories. I was scared and felt guilty about that fire.
+            But it was mainly my friends that helped me come to terms with my
+            trauma.
+          </div>
+          <div class="msg sent">Can you elaborate?</div>
+          <div class="msg rcvd">
+            Well, I met Alex and Jayne, and after talking to them I realized
+            that my past is not my fault. I realized that not everyone hates me
+            for it, and that I did the best that I could. It didn't completely
+            erase my trauma, but it helped to be surrounded by people I love,
+            and talk with them, you know. Just empty my thoughts. My other
+            friends, Eva, Brady, and those guys, they were always there for me
+            too. Just the thought that I was loved and supported by people in my
+            community helped me a lot.
+          </div>
+          <div class="msg sent">
+            That's great. Thanks for the interview, Coley-Boley. Our time's up.
+          </div>
+          <div class="msg rcvd">
+            Thanks, Brady. I mean, Choch. You need to stop doing that.
+          </div>
+        </div>
+        <h2>A conversation with Brady on reuniting Wounded Sky</h2>
+        <div class="interview-container">
+          <div class="msg sent">
+            Choch here, Brady. Do you have time for an interview?
+          </div>
+          <div class="msg rcvd">Oh, great. Whose phone are you using now?</div>
+          <div class="msg sent">
+            I assure you that this phone has been lended to me under
+            Coley-Boley's complete consent.
+          </div>
+          <div class="msg rcvd">
+            I'll have to check with Cole on that later.
+          </div>
+          <div class="msg sent">
+            Why do you guys have to make this so awkward? Anyways, so describe
+            the challenges that Wounded Sky has faced. How will the community
+            heal together?
+          </div>
+          <div class="msg rcvd">
+            It's been real difficult since the fire, and even more so after so
+            many people died. You know, Ashley, Alex, Chief Crate... but I think
+            that the community can definitely start reuniting. A lot of our
+            struggle was with some people accusing Cole of murder. Now that the
+            matter is resolved, we're free to start holding normal meetings and
+            discussing our steps forward.
+          </div>
+          <div class="msg sent">
+            I asked Cole about him reuniting with you and your friends. How
+            about you? How did you feel, seeing Cole come back to Wounded Sky?
+          </div>
+          <div class="msg rcvd">
+            At first, I felt angry and frustrated that he had the nerve to
+            return after abandoning us. Then my anger faded away and I realized
+            that it wasn't his fault for anything. You know, he was just a kid
+            put in the wrong place at the wrong time. He came back trying to
+            help, and we eventually realized this, so we helped him.
+          </div>
+          <div class="msg sent">
+            Do you think Wounded Sky can ever return to normal?
+          </div>
+          <div class="msg rcvd">
+            You know, I used to not think so, with Cole gone and everyone being
+            so pessimistic. Now, I think that Wounded Sky can definitely get
+            back to normal. Cole is back here now, and it's a time for healing.
+            All of our pain is past us and we're starting to forgive each other.
+          </div>
+          <div class="msg sent">
+            Thanks for the interview, Brady. I think Cole might need his phone
+            back now.
+          </div>
+          <div class="msg rcvd">Wait, what?</div>
+        </div>
+        <h2>A conversation with Cole, Brady, Eva, and Michael</h2>
+        <div class="interview-container">
+          <div class="msg sent">
+            You're probably wondering why I put you guys in this group. I'm
+            getting an interview, you see.
+          </div>
+          <div class="msg rcvd" style="background-color: orange">
+            <b>Eva</b> Are you kidding?
+          </div>
+          <div class="msg rcvd" style="background-color: lightskyblue">
+            <b>Michael</b> Okay, but make it quick.
+          </div>
+          <div class="msg rcvd" style="background-color: lightgreen">
+            <b>Cole</b> This is my second one today. Nice that I found my phone
+            before this.
+          </div>
+          <div class="msg rcvd" style="background-color: lightcoral">
+            <b>Brady</b> Oh, Cole. I have something to tell you.
+          </div>
+          <div class="msg sent">
+            Okay, let's just change the topic now. Describe your feelings seeing
+            each for the first time when Cole came back to Wounded Sky.
+          </div>
+          <div class="msg rcvd" style="background-color: orange">
+            <b>Eva</b> I was just really surprised. No offense, Cole, but I felt
+            angry too. Like, I was mad that you abandoned us like that and then
+            came back so casually.
+          </div>
+          <div class="msg rcvd" style="background-color: lightskyblue">
+            <b>Michael</b> What Eva said.
+          </div>
+          <div class="msg rcvd" style="background-color: lightgreen">
+            <b>Cole</b> Hey, that hurt. When I saw you guys, I was really scared
+            that you would show your anger towards me.
+          </div>
+          <div class="msg rcvd" style="background-color: lightcoral">
+            <b>Brady</b> I was proud of Cole for having the courage to return,
+            but again, I was really, really confused. Like, it was so out of the
+            blue.
+          </div>
+          <div class="msg sent">
+            Skipping forward a bit, what made you defend each other at Chief
+            Crate's funeral, when Mark was accusing Cole?
+          </div>
+          <div class="msg rcvd" style="background-color: lightcoral">
+            <b>Brady</b> We were all pretty angry at Cole, I have to admit. The
+            thing that made me defend Cole was that deep down, I knew he didn't
+            kill anybody. Also, Cole is my friend, and I was mad at Mark for
+            disrespecting him and Ashley like that.
+          </div>
+          <div class="msg rcvd" style="background-color: orange">
+            <b>Eva</b> Same with me. I don't have much to add other than that I
+            know we're all supposed to look out for each other.
+          </div>
+          <div class="msg sent">
+            So, how did you all deal with the threats surrounding you?
+          </div>
+          <div class="msg rcvd" style="background-color: lightskyblue">
+            <b>Michael</b> How specific. I mean, when Alex died, we all
+            comforted each other. That definitely helped us bond.
+          </div>
+          <div class="msg rcvd" style="background-color: lightgreen">
+            <b>Cole</b> I really cared when Alex and Ashley died. I knew that I
+            had a job to do by returning to Wounded Sky, so I knew we had to do
+            something. That's why we all came together to find the killer. It
+            didn't end how I expected it to, but it all worked out.
+          </div>
+          <div class="msg rcvd" style="background-color: orange">
+            <b>Eva</b> It was the personal losses that did it for me. When
+            Ashley and Alex died, I think that everyone knew we had to do
+            something, and that's why we stuck together through all of it.
+          </div>
+          <div class="msg rcvd" style="background-color: lightcoral">
+            <b>Brady</b> I agree. We were together through all of it, even when
+            we had to transfer Cole's blood to save Elder Mariah.
+          </div>
+          <div class="msg sent">
+            That's going to be all. Now, if you don't mind, I have to go.
+          </div>
+          <div class="msg rcvd" style="background-color: lightcoral">
+            <b>Brady</b> You really need to get a phone.
+          </div>
+        </div>
+      </div>
+      <div id="quizzes" style="display: none">
+        <h1 class="content-title">Quizzes</h1>
+        <h2 class="content-text">Explore Quizzes</h2>
+        Hi
+        </div>
+      </div>
+    </div>
+    <footer>
+      <h3>Bolivar Park Secondary Project</h3>
+      <a
+        class="footer-button"
+        href="mailto:ddai@southridge.bc.ca"
+        target="_blank"
+        >Contact Us</a
+      >
+      <a
+        class="footer-button"
+        href="https://www.youtube.com/watch?v=oHg5SJYRHA0"
+        target="_blank"
+        >Terms of Service</a
+      >
+      <a
+        class="footer-button"
+        href="https://www.youtube.com/watch?v=oHg5SJYRHA0"
+        target="_blank"
+        >Privacy</a
+      >
+    </footer>
+  </body>
+  <script src="js/script.js"></script>
+</html>
