@@ -1,7 +1,6 @@
-# ChochNotes
+# Bolivar Park Secondary
 
-An English project study guide for the David A. Robertson novel Strangers. This repository is, by the way, probably pointless.
+A social studies project, this is a mock site for a proposed construction project.
 
 ## Credits
-- Thanks to SparkNotes (https://www.sparknotes.com/) for "inspiration"
-- Thanks to https://www.sitepoint.com/simple-javascript-quiz/ for the code on making the study quizzes.
+- Most of the site's code is from my other site (another school project), ChochNotes. PLease see its [github repo](https://github.com/LikelyNot/ChochNotes).
